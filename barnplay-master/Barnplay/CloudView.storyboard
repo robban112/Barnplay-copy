@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Cloud View Controller-->
+        <scene sceneID="cP2-IF-vVv">
+            <objects>
+                <viewController storyboardIdentifier="CloudViewController" id="omm-HI-2Hr" customClass="CloudViewController" customModule="Barnplay" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rfc-ZS-cc4">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </sceneKitView>
+                    <connections>
+                        <segue destination="2J4-hf-Dyb" kind="show" identifier="Show Episode View Controller" id="c2R-gt-IC5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="deQ-R4-3fn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927" y="561"/>
+        </scene>
+        <!--EpisodeViewController-->
+        <scene sceneID="ENy-yQ-VKv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="EpisodeView" referencedIdentifier="EpisodeViewController" id="2J4-hf-Dyb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NL9-O0-vpu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076.5" y="546"/>
+        </scene>
+    </scenes>
+</document>

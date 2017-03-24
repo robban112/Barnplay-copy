@@ -1,0 +1,11 @@
+# Alamofire - used to simplify http requests
+github "Alamofire/Alamofire"
+
+# swiftyJSON - used to simplify json decoding
+github "SwiftyJSON/SwiftyJSON"
+
+# PSOperations - used to handle concurrency
+github "pluralsight/PSOperations"
+
+# Kingfisher - used to cache images
+github "onevcat/Kingfisher"
